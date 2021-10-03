@@ -1,0 +1,16 @@
+.btn-color{
+    background-color: #20AD96;
+    border: none;
+    
+}
+.btn-color:hover{
+    background-color: #3F3A64;
+
+}
+p{
+    color:#8E8BA3;
+    font-weight: bold;
+}
+.bg-color{
+    background-color: #E9E6E3;
+}

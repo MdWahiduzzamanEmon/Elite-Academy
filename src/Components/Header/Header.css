@@ -1,0 +1,19 @@
+.text-color{
+    color:#3F3A64;
+}
+.btn-color{
+    background-color: #20AD96;
+    border: none;
+    
+}
+.btn-color:hover{
+    background-color: #3F3A64;
+
+}
+.selected{
+    text-decoration: none;
+    padding: 0 10px;
+}
+.selected:hover{
+    color: #20AD96;
+}
