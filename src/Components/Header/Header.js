@@ -9,7 +9,7 @@ import {
   Navbar,
   Button,
 } from "react-bootstrap";
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Header.css'
 
 const Header = () => {
@@ -26,45 +26,25 @@ const Header = () => {
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
               <Nav
-                className="me-auto my-2 my-lg-0"
+                className="mx-auto my-2 my-lg-0"
                 style={{ maxHeight: "100px" }}
                 navbarScroll
               >
-                <NavLink
-                  activeClassName="selected"
-                  to="#action1"
-                  className="text-color fw-bold"
-                >
+                <Link to="/home" className="text-color fw-bold selected">
                   Home
-                </NavLink>
-                <NavLink
-                  activeClassName="selected"
-                  to="#action2"
-                  className="text-color fw-bold"
-                >
+                </Link>
+                <Link to="/services" className="text-color fw-bold selected">
                   Services
-                </NavLink>
-                <NavLink
-                  activeClassName="selected"
-                  to="#action2"
-                  className="text-color fw-bold"
-                >
+                </Link>
+                <Link to="#action2" className="text-color fw-bold selected">
                   Team
-                </NavLink>
-                <NavLink
-                  activeClassName="selected"
-                  to="#action2"
-                  className="text-color fw-bold"
-                >
+                </Link>
+                <Link to="#action2" className="text-color fw-bold selected">
                   Testimonials
-                </NavLink>
-                <NavLink
-                  activeClassName="selected"
-                  to="#action2"
-                  className="text-color fw-bold"
-                >
+                </Link>
+                <Link to="#action2" className="text-color fw-bold selected">
                   Become a Teacher
-                </NavLink>
+                </Link>
                 <div className="text-color">
                   <FontAwesomeIcon icon={faShoppingCart} />
                 </div>

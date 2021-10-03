@@ -6,6 +6,10 @@
     border: none;
     
 }
+.second-text-color{
+    color: #20AD96;
+    font-weight: 400;
+}
 .btn-color:hover{
     background-color: #3F3A64;
 
@@ -13,6 +17,9 @@
 .selected{
     text-decoration: none;
     padding: 0 10px;
+}
+NavLink{
+    text-decoration: none;
 }
 .selected:hover{
     color: #20AD96;

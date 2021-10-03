@@ -1,0 +1,15 @@
+.img-cls{
+    width: 200px;
+    border-radius: 50%;
+    margin-left:8px ;
+}
+
+.shadow_class{
+    box-shadow: 5px 0px 15px 0px rgb(185, 184, 184);
+    transition: .5s ease all;
+     border-radius: 10px;
+}
+.shadow_class:hover{
+   box-shadow: 5px 0px 15px 0px rgb(138, 136, 136);
+    transition: .5s ease all;
+}
