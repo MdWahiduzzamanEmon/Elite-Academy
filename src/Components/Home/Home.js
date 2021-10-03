@@ -25,9 +25,11 @@ const Home = () => {
                   You don't have to struggle alone, you've got our assistance
                   and help.
                 </p>
-                <button className="btn btn-color text-light mt-4">
-                  Enquire Now
-                </button>
+                <Link to="/enrolled">
+                  <button className="btn btn-color text-light mt-4">
+                    Enquire Now
+                  </button>
+                </Link>
               </div>
               <div className="col-md-6">
                 <div>
@@ -46,7 +48,7 @@ const Home = () => {
             </h1>
           </div>
           <div className="container">
-                    <Row xs={1} md={1} lg={ 2} className="g-4 ">
+            <Row xs={1} md={1} lg={2} className="g-4 ">
               {courses?.map((course) => (
                 <Course key={course.id} course={course}></Course>
               ))}

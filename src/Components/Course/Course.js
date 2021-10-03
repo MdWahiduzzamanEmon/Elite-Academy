@@ -1,5 +1,7 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBook } from "@fortawesome/free-solid-svg-icons";
 import './Course.css'
 const Course = (props) => {
     const {c_img,c_price,c_name,C_total_lesson } = props.course;
@@ -14,9 +16,12 @@ const Course = (props) => {
               </Card.Title>
               <Card.Text>
                 <h4 className="text-dark fw-bold py-3">{c_name}</h4>
-                <small>{C_total_lesson}</small>
-                        </Card.Text>
-                        <button className="btn btn-color text-white">Buy Course</button>
+                <small>
+                                <FontAwesomeIcon icon={faBook} />{" "}
+                   {C_total_lesson}
+                </small>
+              </Card.Text>
+              <button className="btn btn-color text-white">Buy Course</button>
             </Card.Body>
           </div>
         </Col>

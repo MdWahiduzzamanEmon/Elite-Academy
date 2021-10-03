@@ -39,7 +39,10 @@ const Header = () => {
                 <Link to="#action2" className="text-color fw-bold selected">
                   Team
                 </Link>
-                <Link to="#action2" className="text-color fw-bold selected">
+                <Link
+                  to="/Testimonials"
+                  className="text-color fw-bold selected"
+                >
                   Testimonials
                 </Link>
                 <Link to="#action2" className="text-color fw-bold selected">

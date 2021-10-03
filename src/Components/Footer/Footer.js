@@ -6,7 +6,7 @@ import paymentImg from '../../images/payment.png'
 
 const Footer = () => {
     return (
-      <div>
+      <div className="bg-color">
         <div className="container">
           <div className="row py-5">
             <div className="col-md-6">
@@ -30,7 +30,7 @@ const Footer = () => {
                 <Link to="#action2" className="fw-bold selected">
                   <p>Team</p>
                 </Link>
-                <Link to="#action2" className="fw-bold selected">
+                <Link to="/Testimonials" className="fw-bold selected">
                   <p>Testimonials</p>
                 </Link>
                 <Link to="#action2" className="fw-bold selected">

@@ -5,6 +5,7 @@ import Home from "../../Components/Home/Home";
 import Error from '../Error/Error';
 import Footer from '../Footer/Footer';
 import Services from "../Services/Services";
+import Testimonials from '../Testimonials/Testimonials';
 
 const Routing = () => {
     return (
@@ -20,6 +21,9 @@ const Routing = () => {
             </Route>
             <Route path="/services">
               <Services></Services>
+            </Route>
+            <Route path="/testimonials">
+              <Testimonials></Testimonials>
             </Route>
             <Route path="*">
               <Error></Error>
