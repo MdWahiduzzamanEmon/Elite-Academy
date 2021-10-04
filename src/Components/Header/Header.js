@@ -45,7 +45,10 @@ const Header = () => {
                 >
                   Testimonials
                 </Link>
-                <Link to="#action2" className="text-color fw-bold selected">
+                <Link
+                  to="/become-a-teacher"
+                  className="text-color fw-bold selected"
+                >
                   Become a Teacher
                 </Link>
                 <div className="text-color">

@@ -33,7 +33,7 @@ const Footer = () => {
                 <Link to="/Testimonials" className="fw-bold selected">
                   <p>Testimonials</p>
                 </Link>
-                <Link to="#action2" className="fw-bold selected">
+                <Link to="/become-a-teacher" className="fw-bold selected">
                   <p>Become a Teacher</p>
                 </Link>
               </div>

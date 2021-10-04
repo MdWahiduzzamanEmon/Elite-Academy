@@ -1,0 +1,13 @@
+.bg-img-job{
+    background-image: url('https://images.unsplash.com/photo-1632386474725-138bbf6e3f41?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1632&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    object-fit: cover;
+    background-attachment: fixed;
+    height: 600px;
+}
+.bg-dorm-img{
+    background-color: #fff;
+    padding: 20px;
+}
