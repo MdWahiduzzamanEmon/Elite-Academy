@@ -23,7 +23,7 @@ const Course = (props) => {
                    {C_total_lesson}
                 </small>
               </Card.Title>
-              <button className="btn btn-color text-white mt-3">Buy Course</button>
+              <button className="btn btn-color text-white mt-3">View Course</button>
             </Card.Body>
           </div>
         </Col>
