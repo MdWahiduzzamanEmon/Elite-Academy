@@ -7,8 +7,9 @@ import './BuildDream.css'
 
 const BuildDream = () => {
     return (
+        // build up dream section 
       <div>
-        <div className="text-center pt-5">
+        <div className="text-center py-5 my-5">
           <p>START LEARNING CODING LANGUAGES </p>
           <h1 className="text-color fw-bold">
             {" "}

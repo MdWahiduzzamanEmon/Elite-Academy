@@ -3,8 +3,10 @@ import { Card, Col, Row } from 'react-bootstrap';
 import Charts from '../Charts/Charts';
 import Provide from '../Provide/Provide';
 import './Team.css';
+
 const Team = () => {
-    const [tearchers, setTeachers] = useState([]);
+  const [tearchers, setTeachers] = useState([]);
+  // api call 
     useEffect(() => {
         fetch("./package-2.JSON")
           .then((res) => res.json())
@@ -15,13 +17,17 @@ const Team = () => {
       <div className="container">
         <div className="row">
           <div className="mt-5 col-md-6">
+            {/* charts  */}
             <Charts></Charts>
+            <h4 className="text-color ms-5 fw-bold">----Our Teaching Progress</h4>
           </div>
           <div className="mt-5 col-md-6">
+            {/* provide section  */}
             <Provide></Provide>
           </div>
         </div>
         <div>
+          {/* team members  */}
           <h2 className="text-center mt-5 py-4 fw-bold text-color">
             *Team Members*
           </h2>

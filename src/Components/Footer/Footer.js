@@ -5,10 +5,12 @@ import { Link } from 'react-router-dom';
 import paymentImg from '../../images/payment.png'
 
 const Footer = () => {
+    // footer 
     return (
       <div className="bg-color">
         <div className="container">
-          <div className="row py-5">
+                <div className="row py-5">
+                    {/* adress  */}
             <div className="col-md-6">
               <h3>Adress</h3>
               <p>Jhikargachha,Jessore FL 33179-3899 +1 (305) 547-9909</p>
@@ -17,7 +19,10 @@ const Footer = () => {
               <h5>
                 <BsFacebook />
               </h5>
-            </div>
+                    </div>
+
+                    {/* route link  */}
+
             <div className="col-md-3">
               <h3>Explore</h3>
               <div className="d-flex flex-column">
@@ -37,7 +42,8 @@ const Footer = () => {
                   <p>Become a Teacher</p>
                 </Link>
               </div>
-            </div>
+                    </div>
+                    {/* search filed  */}
             <div className="col-md-3">
               <h3>Information</h3>
               <InputGroup className="my-3">

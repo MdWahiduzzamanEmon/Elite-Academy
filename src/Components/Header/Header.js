@@ -15,6 +15,7 @@ import './Header.css'
 const Header = () => {
     return (
       <div>
+        {/* navbar  */}
         <Navbar expand="lg" className="bg-color">
           <Container>
             <Navbar.Brand href="#">
@@ -30,6 +31,7 @@ const Header = () => {
                 style={{ maxHeight: "100px" }}
                 navbarScroll
               >
+                {/* link  */}
                 <Link to="/home" className="text-color fw-bold selected">
                   Home
                 </Link>

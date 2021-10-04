@@ -6,6 +6,7 @@ import { Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import MobileApp from '../MobileApp/MobileApp';
 import BuildDream from '../BuildDream/BuildDream';
+import Provide from '../Provide/Provide';
 const Home = () => {
     const [courses, setCourses] = useState([]);
     useEffect(() => {
@@ -54,7 +55,8 @@ const Home = () => {
             </h1>
           </div>
           <div className="container">
-            <Row xs={1} md={1} lg={2} className="g-4 ">
+                    <Row xs={1} md={1} lg={2} className="g-4 ">
+                        {/* maping  */}
               {courses?.map((course) => (
                 <Course key={course.id} course={course}></Course>
               ))}
@@ -72,7 +74,12 @@ const Home = () => {
         {/* movile app  */}
         <section className="container pt-3">
           <MobileApp></MobileApp>
-        </section>
+            </section>
+            
+            {/* provide */}
+            <section className="container py-5 mb-5 d-flex justify-content-center">
+                <Provide></Provide>
+            </section>
       </div>
     );
 };

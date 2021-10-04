@@ -4,9 +4,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBook } from "@fortawesome/free-solid-svg-icons";
 import './Course.css'
 const Course = (props) => {
+    // destructuring
     const {c_img,c_price,c_name,C_total_lesson } = props.course;
     return (
-      <div>
+        <div>
+            {/* course card  */}
         <Col className="shadow_class h-100 py-3">
           <div className="d-md-flex justify-content-between align-items-center ">
             <Card.Img src={c_img} className="img-cls mt-md-0 mt-4" />
