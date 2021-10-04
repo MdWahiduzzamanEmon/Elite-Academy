@@ -4,6 +4,7 @@ import headerBg from '../../images/header.webp';
 import Course from '../Course/Course';
 import { Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import MobileApp from '../MobileApp/MobileApp';
 const Home = () => {
     const [courses, setCourses] = useState([]);
     useEffect(() => {
@@ -62,6 +63,10 @@ const Home = () => {
               </Link>
             </div>
           </div>
+        </section>
+        {/* movile app  */}
+        <section className="container pt-3">
+          <MobileApp></MobileApp>
         </section>
       </div>
     );

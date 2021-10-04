@@ -52,7 +52,7 @@ const BecomeTeacher = () => {
                 </Form.Group>
               </Row>
               <button className="btn btn-color text-light" type="submit">
-                Submit
+                Get The Learning Program
               </button>
             </Form>
           </div>

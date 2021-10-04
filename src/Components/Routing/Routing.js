@@ -6,6 +6,7 @@ import BecomeTeacher from '../BecomeTeacher/BecomeTeacher';
 import Error from '../Error/Error';
 import Footer from '../Footer/Footer';
 import Services from "../Services/Services";
+import Team from '../Team/Team';
 import Testimonials from '../Testimonials/Testimonials';
 
 const Routing = () => {
@@ -22,6 +23,9 @@ const Routing = () => {
             </Route>
             <Route path="/services">
               <Services></Services>
+            </Route>
+            <Route path="/team">
+              <Team></Team>
             </Route>
             <Route path="/testimonials">
               <Testimonials></Testimonials>

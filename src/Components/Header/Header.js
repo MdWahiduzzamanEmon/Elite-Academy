@@ -36,7 +36,7 @@ const Header = () => {
                 <Link to="/services" className="text-color fw-bold selected">
                   Services
                 </Link>
-                <Link to="#action2" className="text-color fw-bold selected">
+                <Link to="/team" className="text-color fw-bold selected">
                   Team
                 </Link>
                 <Link

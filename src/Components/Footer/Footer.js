@@ -27,7 +27,7 @@ const Footer = () => {
                 <Link to="/services" className="fw-bold selected">
                   <p>Services</p>
                 </Link>
-                <Link to="#action2" className="fw-bold selected">
+                <Link to="/team" className="fw-bold selected">
                   <p>Team</p>
                 </Link>
                 <Link to="/Testimonials" className="fw-bold selected">
