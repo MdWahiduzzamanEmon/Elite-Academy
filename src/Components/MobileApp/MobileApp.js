@@ -8,7 +8,7 @@ const MobileApp = () => {
           <div className="col-md-6">
             <img src={mobile} className="img-fluid" alt="mobile" />
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 mt-md-0 mt-5">
             <p>WHAT ARE YOU LOOKING FOR?</p>
             <h1 className="text-color fw-bold py-3">
               Learn on your <span className="second-text-color">mobile</span>{" "}

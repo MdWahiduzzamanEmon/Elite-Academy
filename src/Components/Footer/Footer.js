@@ -53,7 +53,7 @@ const Footer = () => {
             </div>
           </div>
           <p className="text-center">
-            &copy; 2021 Afian-Avro. All Rights Reserved
+            &copy; 2021 MD-Wahiduzzaman-Emon. All Rights Reserved
           </p>
         </div>
       </div>

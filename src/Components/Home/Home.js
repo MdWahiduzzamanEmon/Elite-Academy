@@ -5,6 +5,7 @@ import Course from '../Course/Course';
 import { Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import MobileApp from '../MobileApp/MobileApp';
+import BuildDream from '../BuildDream/BuildDream';
 const Home = () => {
     const [courses, setCourses] = useState([]);
     useEffect(() => {
@@ -39,7 +40,11 @@ const Home = () => {
               </div>
             </div>
           </div>
-        </section>
+            </section>
+            {/* bild-dream  */}
+            <section className="container">
+                <BuildDream></BuildDream>
+            </section>
         {/* services */}
         <section className="py-5">
           <div className="text-center pb-4">
