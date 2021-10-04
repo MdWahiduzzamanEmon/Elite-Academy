@@ -10,9 +10,9 @@ const Footer = () => {
       <div className="bg-color">
         <div className="container">
                 <div className="row py-5">
-                    {/* adress  */}
+                    {/* address  */}
             <div className="col-md-6">
-              <h3>Adress</h3>
+              <h3>Address</h3>
               <p>Jhikargachha,Jessore FL 33179-3899 +1 (305) 547-9909</p>
               <p>(9am - 5pm GMT, Monday - Friday)</p>
               <p>Mail: wahedemon09@gmail.com</p>
