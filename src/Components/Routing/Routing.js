@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router,Switch,Route } from "react-router-dom";
 import Header from '../../Components/Header/Header';
 import Home from "../../Components/Home/Home";
+import About from '../About/About';
 import BecomeTeacher from '../BecomeTeacher/BecomeTeacher';
 import Error from '../Error/Error';
 import Footer from '../Footer/Footer';
@@ -26,6 +27,9 @@ const Routing = () => {
             </Route>
             <Route path="/team">
               <Team></Team>
+            </Route>
+            <Route path="/about">
+              <About></About>
             </Route>
             <Route path="/testimonials">
               <Testimonials></Testimonials>

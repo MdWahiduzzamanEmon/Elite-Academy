@@ -47,11 +47,15 @@ const Header = () => {
                 >
                   Testimonials
                 </Link>
+
                 <Link
                   to="/become-a-teacher"
                   className="text-color fw-bold selected"
                 >
                   Become a Teacher
+                </Link>
+                <Link to="/about" className="text-color fw-bold selected">
+                  About Us
                 </Link>
                 <div className="text-color">
                   <FontAwesomeIcon icon={faShoppingCart} />

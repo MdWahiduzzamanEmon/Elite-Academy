@@ -41,6 +41,9 @@ const Footer = () => {
                 <Link to="/become-a-teacher" className="fw-bold selected">
                   <p>Become a Teacher</p>
                 </Link>
+                <Link to="/about" className="fw-bold selected">
+                  <p>About Us</p>
+                </Link>
               </div>
                     </div>
                     {/* search filed  */}
