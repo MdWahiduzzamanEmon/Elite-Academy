@@ -37,7 +37,7 @@ const About = () => {
             </section>
             {/* button  */}
             <section className="text-center pb-5">
-                <Link to="/services">
+                <Link to="/courses">
                     <button className="btn btn-color text-light p-4">Buy Course</button>
                 </Link>
             </section>
