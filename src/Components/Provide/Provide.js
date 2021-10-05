@@ -19,7 +19,7 @@ const Provide = () => {
           <li>Participate in events to join others</li>
           <li>Get the desired certificate delivered at house</li>
         </ul>
-        <Link to="/services">
+        <Link to="/courses">
           <button className="btn btn-color text-light">Check courses</button>
         </Link>
       </div>

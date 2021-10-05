@@ -11,7 +11,7 @@ const Testimonials = () => {
           </h1>
         </div>
         <div className="text-center pb-4 mb-5">
-          <Link to="/services">
+          <Link to="/courses">
             <button className="btn btn-color text-white">
               Click here to see courses
             </button>
