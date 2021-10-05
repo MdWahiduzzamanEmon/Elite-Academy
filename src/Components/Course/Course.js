@@ -5,7 +5,7 @@ import { faBook } from "@fortawesome/free-solid-svg-icons";
 import './Course.css'
 const Course = (props) => {
     // destructuring
-    const {c_img,c_price,c_name,C_total_lesson } = props.course;
+    const {c_img,c_price,c_name,C_total_lesson,course } = props.course;
     return (
         <div>
             {/* course card  */}
@@ -15,6 +15,7 @@ const Course = (props) => {
             <Card.Body>
               <Card.Title>
                 <h3 className="second-text-color fw-bold">{c_price}</h3>
+                <h3>-{course.toUpperCase()} Course</h3>
               </Card.Title>
               <Card.Title>
                 <p className="text-dark fw-bold py-3">{c_name}</p>

@@ -22,7 +22,7 @@ const Routing = () => {
             <Route path="/home">
               <Home></Home>
             </Route>
-            <Route path="/services">
+            <Route path="/courses">
               <Services></Services>
             </Route>
             <Route path="/team">

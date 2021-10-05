@@ -21,7 +21,7 @@ const BecomeTeacher = () => {
           <div className="container pb-4">
             <Form className="bg-dorm-img">
               <h2 className="text-center py-3 text-color">
-                Register to Become an Intructor
+                Register to Become an Instructor
               </h2>
               <Row className="mb-3">
                 <Form.Group as={Col} controlId="formGridEmail">

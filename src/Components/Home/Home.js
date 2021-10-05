@@ -8,12 +8,17 @@ import MobileApp from '../MobileApp/MobileApp';
 import BuildDream from '../BuildDream/BuildDream';
 import Provide from '../Provide/Provide';
 const Home = () => {
-    const [courses, setCourses] = useState([]);
+
+  const [courses, setCourses] = useState([]);
+  
     useEffect(() => {
         fetch("./package.JSON")
           .then((res) => res.json())
           .then((data) => setCourses(data.slice(0,4)));
-    },[])
+    }, [])
+  
+ 
+  
     return (
       <div>
         <section className="bg-color">
@@ -55,6 +60,10 @@ const Home = () => {
             </h1>
           </div>
           <div className="container">
+
+      
+
+
                     <Row xs={1} md={1} lg={2} className="g-4 ">
                         {/* maping  */}
               {courses?.map((course) => (

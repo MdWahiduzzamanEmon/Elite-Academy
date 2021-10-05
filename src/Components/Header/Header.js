@@ -35,8 +35,8 @@ const Header = () => {
                 <Link to="/home" className="text-color fw-bold selected">
                   Home
                 </Link>
-                <Link to="/services" className="text-color fw-bold selected">
-                  Services
+                <Link to="/courses" className="text-color fw-bold selected">
+                  Courses
                 </Link>
                 <Link to="/team" className="text-color fw-bold selected">
                   Team

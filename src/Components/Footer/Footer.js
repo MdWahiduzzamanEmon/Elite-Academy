@@ -29,8 +29,8 @@ const Footer = () => {
                 <Link to="/home" className="fw-bold selected">
                   <p>Home</p>
                 </Link>
-                <Link to="/services" className="fw-bold selected">
-                  <p>Services</p>
+                <Link to="/courses" className="fw-bold selected">
+                  <p>Courses</p>
                 </Link>
                 <Link to="/team" className="fw-bold selected">
                   <p>Team</p>
