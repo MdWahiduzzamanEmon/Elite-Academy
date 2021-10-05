@@ -33,7 +33,7 @@ const Services = () => {
               aria-label="Floating label select example"
               onChange={handleToSearch}
             >
-              <option>Find New or Old course</option>
+              <option value='course'>Find New or Old course</option>
               <option value="new">New Course</option>
               <option value="old">Old Course</option>
             </Form.Select>

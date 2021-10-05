@@ -15,7 +15,7 @@ const Course = (props) => {
             <Card.Body>
               <Card.Title>
                 <h3 className="second-text-color fw-bold">{c_price}</h3>
-                <h3>-{course.toUpperCase()} Course</h3>
+                <h3>-{course.toUpperCase()}</h3>
               </Card.Title>
               <Card.Title>
                 <p className="text-dark fw-bold py-3">{c_name}</p>

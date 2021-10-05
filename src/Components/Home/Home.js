@@ -72,7 +72,7 @@ const Home = () => {
             </Row>
 
             <div className="text-center">
-              <Link to="./services">
+              <Link to="./courses">
                 <button className="btn btn-color text-white my-5">
                   See More Course
                 </button>
